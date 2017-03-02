@@ -6,7 +6,7 @@ body {
     box-sizing: border-box;
     font-size: 100%;
     font-family: "proxima-nova", Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #969696;
     letter-spacing: -0.5px;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
@@ -52,6 +52,10 @@ h4 {
 }
 
 @media (min-width:576px){
+    
+    body {
+        font-size: 18px;
+    }
 
     h1 {
         font-size: 48px;
@@ -89,9 +93,10 @@ img {
 }
 
 header {
+    position: relative;
     width: 100%;
     height: 100%;
-    min-height: 700px;
+    padding: 30px 0;
 }
 
 #particles {
@@ -108,15 +113,23 @@ header .container-fluid {
 }
 
 .top {
-    height: 10%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-top: 15px;
 }
 
-.center {
-    height: 60%;
+.middle {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .bottom {
-    height: 30%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 .vertical-center {
@@ -198,20 +211,16 @@ header .container-fluid {
 }
 
 .about {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 .about h1 {
-    margin-bottom: 60px;
-}
-
-.work {
-    padding-bottom: 100px;
+    margin-bottom: 25px;
 }
 
 .work .heading {
-    margin-bottom: 60px;
+    margin-bottom: 25px;
 }
 
 .work .row {
@@ -223,12 +232,12 @@ header .container-fluid {
 }
 
 .trust .feature {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .contact-section {
-    padding-top: 80px;
-    padding-bottom: 130px;
+    padding-top: 40px;
+    padding-bottom: 70px;
 }
 
 footer {
@@ -242,13 +251,6 @@ footer {
 
     .container {
         padding: 0 30px;
-    }
-    .center {
-    height: 80%;
-    }
-
-    .bottom {
-        height: 10%;
     }
     .about {
         padding-top: 200px;
@@ -294,7 +296,7 @@ footer {
       position: absolute;
       width: 30px;
       height: 44px;
-      top: 0;
+      bottom: 15px;
       left: 50%;
       margin-left: -12px;
       border-radius: 15px;
