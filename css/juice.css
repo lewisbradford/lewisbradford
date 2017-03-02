@@ -99,14 +99,6 @@ header {
     top: 0;
 }
 
-.container-fluid {
-    padding: 0 30px;
-}
-
-.container {
-    padding: 0 30px;
-}
-
 header .container-fluid {
     height: 100%;
 }
@@ -244,6 +236,13 @@ footer {
 }
 
 @media (min-width:576px){
+    .container-fluid {
+        padding: 0 30px;
+    }
+
+    .container {
+        padding: 0 30px;
+    }
     .center {
     height: 80%;
     }
