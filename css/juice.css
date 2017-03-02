@@ -5,7 +5,7 @@ html, body {
 body {
     box-sizing: border-box;
     font-size: 100%;
-    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    font-family: "Proxima-Nova", Helvetica, Arial, sans-serif;
     font-size: 18px;
     color: #969696;
     letter-spacing: -0.5px;
@@ -15,12 +15,12 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Aktiv Grotesk", Helvetica, Arial, sans-serif;
+    font-family: "Aktiv-Grotesk", Helvetica, Arial, sans-serif;
     margin: 18px 0;
 }
 
 h4, h5, h6 {
-    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    font-family: "Proxima-Nova", Helvetica, Arial, sans-serif;
     margin: 18px 0;
 }
 
@@ -197,7 +197,7 @@ header .container-fluid {
 }
 
 .contact span {
-    font-family: "Aktiv Grotesk", Helvetica, Arial, sans-serif;
+    font-family: "Aktiv-Grotesk", Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: #3b3b3b;
